@@ -1,0 +1,89 @@
+/* pages/tihuo/index.wxss *//* pages/shouhuo/index.wxss */
+
+.title_Info {
+  padding: 24rpx 20rpx;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 48rpx;
+  background: #009688;
+  color: #ffffff;
+  border: 1rpx solid rgba(187,187,187,1);
+}
+
+.detail_wrap {
+  margin: 0 10rpx;
+  padding: 24rpx 16rpx;
+  font-size: 34rpx;
+  margin-top: 20rpx;
+  border: 1rpx solid rgba(187,187,187,1);
+}
+.tab_title {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 22rpx;
+}
+.tab_item {
+  margin: 18rpx 0;
+}
+.tab_title text {
+  width: 23%;
+  text-align: center;
+}
+.tab_title .order_num {
+  flex: 1;
+  text-align: center;
+}
+
+/* 表格detail */
+
+.tab_item {
+  display: flex;
+  flex-direction: row;
+}
+.tab_item text {
+  width: 23%;
+  text-align: center;
+}
+.tab_item .order_num {
+  flex: 1;
+  text-align: center;
+}
+
+.opt_img {
+  width: 23%;
+  text-align: center;
+}
+
+.opt_img image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.scan_total {
+  display: flex;
+  flex-direction: row;
+  font-size: 36rpx;
+  padding: 0 20rpx;
+  margin-top: 80rpx;
+  justify-content: space-between;
+}
+
+  /* 操作按钮 */
+
+   .opt_wrap {
+     width: 100%;
+     margin-top: 80rpx;
+     direction: flex;
+     flex-direction: row;
+     text-align: center;
+   }
+
+   .opt_wrap text {
+     padding: 16rpx 50rpx;
+     border-radius: 8rpx;
+     font-size: 36rpx;
+    border: 1rpx solid rgba(187,187,187,1);
+   }
+   .opt_wrap text:first-child {
+     margin-right: 60rpx;
+   }

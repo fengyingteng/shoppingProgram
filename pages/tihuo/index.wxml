@@ -1,0 +1,32 @@
+<!--pages/shouhuo/index.wxml-->
+<view class="content_wrap">
+  <view class="title_Info">
+    <text>RWMS - 采购收货 - King</text>
+  </view>
+
+  <view class="detail_wrap" wx:if='{{showTab}}'>
+    <view class="tab_title">
+      <text class="order_num">提筐号</text>
+      <text>包裹数量</text>
+      <text>操作</text>
+    </view>
+    <view class="tab_item" wx:for='{{kuang_list}}' wx:key='index'>
+       <text class="order_num">{{item.kuang_num}}</text>
+       <text>{{item.count}}</text>
+       <view class="opt_img" data-id='{{item.id}}' bindtap="handleDelete">
+        <image src="../../images/delete.png" />
+       </view>
+    </view>
+
+    <!-- 扫码详情 -->
+    <view class="scan_total">
+      <text>本次扫码总件数：</text>
+      <text>{{kuang_total}}件</text>
+    </view>
+  </view>
+  <view class="opt_wrap">
+    <text bindtap="handleTiHuoScan" type="default">提货扫码</text>
+    <text bindtap="handleConfirmSubmit" type="default">确认提交</text>
+  </view>
+</view>
+

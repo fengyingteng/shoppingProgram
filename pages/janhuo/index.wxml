@@ -1,0 +1,39 @@
+<!--pages/shouhuo/index.wxml-->
+<view class="content_wrap">
+  <view class="title_Info">
+    <text>RWMS - 拣货扫码 - King</text>
+  </view>
+  <!-- 货架号 -->
+  <view class="saoma_wrap">
+    <text>拣货单号:</text>
+    <input type="text" value="AXX00000001000" />
+    <image mode="withFix" src="../../images/saoma.png"/>
+  </view>
+
+  <view class="detail_wrap">
+    <view class="top_title">
+      <text class="order_num">商品条码</text>
+      <text class="order_name">商品名称</text>
+      <text>预计数量</text>
+      <text>实际数量</text>
+    </view>
+     <view class="order_info">
+      <text class="order_num">A001-1023210123</text>
+      <text class="order_name">男士套头卫衣</text>
+      <text>1000</text>
+      <text>1000</text>
+    </view>
+    <view class="order_info">
+      <text class="order_num">A001-1023210123</text>
+      <text class="order_name">卫衣</text>
+      <text>1000</text>
+      <text>1000</text>
+    </view>
+  </view>
+  <!-- 按钮 -->
+  <view class="opt_wrap">
+    <text type="default">拣货扫码</text>
+    <text type="default">确认提交</text>
+  </view>
+</view>
+

@@ -1,0 +1,13 @@
+<!--pages/store/index.wxml-->
+<view class="store_wrap">
+  <view class="stores_wrap">
+     <view class="store_wrap"
+        wx:for='{{store_list}}' 
+        wx:key='{{index}}' 
+        bindtap="handleSelect" data-item='{{item}}'
+      >
+      <text class='store'>{{item.name}}</text>
+      <image wx:if='{{selected_index === index}}' mode="widthFix" src="/images/select.png" />
+    </view>
+  </view>
+</view>

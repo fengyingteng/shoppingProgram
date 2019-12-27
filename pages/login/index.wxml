@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container_wrap">
+  <view class="log_wrap">
+    <text class="log">Rabbos WMS</text>
+  </view>
+  <view class="login_wrap">
+    <view class="usename_wrap">
+      <input bindinput="handelUsername" value="{{username}}" type="text" maxlength="11" placeholder="账号" />
+    </view>
+    <view class="pw_wrap">
+      <input bindinput="handelPwd" value="{{pwd}}" type="password" placeholder="密码"/>
+    </view>
+     <view class="btn_wrap" bindtap="handleSubmit">
+      <text class="btn">登录</text>
+    </view>
+   </view>
+</view>

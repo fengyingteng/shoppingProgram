@@ -1,0 +1,31 @@
+<!--pages/shouhuo/index.wxml-->
+<view class="content_wrap">
+  <view class="title_Info">
+    <text>RWMS - 上架扫码 - King</text>
+  </view>
+  <!-- 货架号 -->
+  <view class="saoma_wrap">
+    <text>货架号:</text>
+    <input type="text" value="AXX00000001000000" />
+    <image mode="withFix" src="../../images/saoma.png"/>
+  </view>
+
+  <view class="detail_wrap">
+    <view class="detail_item">
+      <text>商品仓库条码:</text>
+      <text>A0001-001-31-01-03</text>
+    </view>
+    <view class="detail_item">
+      <text>商品名:</text>
+      <text>卫衣女式</text>
+    </view>
+    <view class="detail_item">
+      <text>长宽高:</text>
+      <text>11X123X123</text>
+    </view>
+  </view>
+  <view class="opt_wrap">
+    <text type="default">上架扫码</text>
+    <text type="default">确认提交</text>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+{
+  "pages": [
+        "pages/tihuo/index",
+    "pages/shouhuo/index",
+    "pages/login/index",
+    "pages/store/index",
+    "pages/home/index",
+    "pages/chuku/index",
+    "pages/janhuo/index",
+    "pages/shangjia/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#009688",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

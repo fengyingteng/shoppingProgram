@@ -1,0 +1,41 @@
+/**index.wxss**/
+
+.log_wrap {
+  margin-top: 194rpx;
+  text-align: center;
+  margin-bottom:72rpx;
+}
+.log {
+  color: #009688;
+  font-style: PingFangSC-regular;
+  font-size: 56rpx;
+}
+
+input {
+  margin: 0 auto;
+  width: 430rpx;
+  height: 66rpx;
+  padding-left: 26rpx;
+  font-size: 30rpx;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  border: 1px solid rgba(187,187,187,1) 
+}
+.usename_wrap {
+  margin-bottom: 50rpx;
+}
+.pw_wrap {
+  margin-bottom: 72rpx;
+}
+.btn {
+  width: 430rpx;
+  height: 66rpx; 
+  line-height: 66rpx;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #009688; 
+  font-size: 40rpx;
+  border-radius: 8rpx;
+  border: 1px solid rgba(187,187,187,1) 
+}

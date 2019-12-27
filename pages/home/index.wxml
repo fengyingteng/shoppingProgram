@@ -1,0 +1,60 @@
+<!--pages/home/index.wxml-->
+<view class="home_container">
+  <view class="top_wrap">
+    <text>{{storename}}-{{username}}</text>
+    <view class="chang_wrap" bindtap="changeStore">
+      <image mode="withFix" src="../../images/chang.png" />
+      <text>切换仓库</text>
+    </view>
+  </view>
+  <view class="package_wrap">
+    <view class="total_info">
+      <text>今日总包裹数</text>
+      <text class="total">{{today_count}}</text>
+    </view>
+    <view class="total_info">
+       <text>昨日总包裹数</text>
+      <text class="total">{{yesterday_count}}</text></view>
+  </view>
+  <!-- 详细信息 -->
+  <view class="package_detail_wrap">
+    <view wx:for ='{{info_list}}' wx:key='{{inde}}' class="package_detail">
+      <text>{{item.name}}</text>
+      <text class="package_info">{{item.count}}</text>
+    </view>
+  </view>
+  <view class="menu_wrap">
+    <view class="menu_two">
+      <!-- 采购收货 -->
+        <navigator url='/pages/shouhuo/index' class="menu">
+          <image src="../../images/gouwu.png"/>
+          <text>采购收货</text>
+        </navigator>
+      
+      <!-- 采购提货 -->
+        <navigator url='/pages/tihuo/index' class="menu">
+          <image mode="withFix" src="../../images/tihuo.png"/>
+          <text>采购提货</text>
+        </navigator>
+    </view>
+    <view class="menu_one">
+    <!-- 上架扫码 -->
+      <navigator url='/pages/shangjia/index' class="menu">
+          <image src="../../images/shangjia.png"/>
+          <text>上架扫码</text>
+      </navigator>
+    </view>
+    <view class="menu_two">
+      <!-- 拣货扫码 -->
+      <navigator url='/pages/janhuo/index' class="menu">
+            <image src="../../images/jianhuo.png"/>
+            <text>拣货扫码</text>
+      </navigator>
+      <!-- 出库扫码 -->
+      <navigator url='/pages/chuku/index' class="menu">
+            <image src="../../images/chuku.png"/>
+            <text>出库扫码</text>
+      </navigator>
+    </view>
+  </view>
+</view>

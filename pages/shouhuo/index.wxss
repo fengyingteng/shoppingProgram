@@ -1,0 +1,115 @@
+/* pages/shouhuo/index.wxss */
+
+.title_Info {
+  padding: 24rpx 20rpx;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 48rpx;
+  background: #009688;
+  color: #ffffff;
+  border: 1rpx solid rgba(187,187,187,1);
+}
+.saoma_wrap {
+  margin: 36rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.saoma_info {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top:-4rpx;
+  border: 1rpx solid rgba(187,187,187,1);
+}
+.saoma_info input{
+  padding: 10rpx;
+  padding-right: 0;
+  width: 420rpx;
+  padding-left: 20rpx;
+}
+.saoma_wrap image {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 10rpx;
+}
+
+.detail_wrap {
+  margin: 0 10rpx;
+  padding: 24rpx 16rpx;
+  font-size: 30rpx;
+  border: 1rpx solid rgba(187,187,187,1);
+}
+.tab_title {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 22rpx;
+}
+.tab_item {
+  margin: 10rpx 0;
+}
+.sig {
+  color: red;
+}
+.tab_title text {
+  width: 16%;
+  text-align: center;
+}
+.tab_title .order_num {
+  flex: 1;
+}
+
+/* 表格detail */
+
+.tab_item {
+  display: flex;
+  flex-direction: row;
+}
+.tab_item text {
+  width: 16%;
+  text-align: center;
+}
+.tab_item .order_num {
+  flex: 1;
+}
+
+.opt_img {
+  width: 16%;
+  text-align: center;
+}
+
+.opt_img image {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.scan_total {
+  display: flex;
+  flex-direction: row;
+  font-size: 32rpx;
+  padding: 0 20rpx;
+  margin-top: 80rpx;
+  justify-content: space-between;
+}
+
+  /* 操作按钮 */
+
+   .opt_wrap {
+     width: 100%;
+     margin-top: 80rpx;
+     direction: flex;
+     flex-direction: row;
+     text-align: center;
+   }
+
+   .opt_wrap text {
+     padding: 16rpx 50rpx;
+     border-radius: 8rpx;
+     font-size: 36rpx;
+    border: 1rpx solid rgba(187,187,187,1);
+   }
+   .opt_wrap text:first-child {
+     margin-right: 60rpx;
+   }

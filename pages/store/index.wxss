@@ -1,0 +1,38 @@
+/* pages/store/index.wxss */
+
+.title_wrap, .store_wrap {
+  width: 100%;
+  height: 80rpx;
+  margin-top: 10rpx;
+  background: #009688;
+  color: #ffffff;
+  font-size: 32rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-weight: 500;
+}
+
+.stores_wrap {
+  margin-top: 10rpx;
+}
+
+.stores_wrap .store_wrap {
+  text-align: left;
+  margin-top: 10rpx;
+  overflow: hidden;
+}
+
+.store_wrap text {
+  padding: 0 20rpx;
+}
+.store_wrap image {
+   width: 50rpx;
+   vertical-align: middle;
+   float: right;
+   position: relative;
+   top:16rpx;
+   right: 24rpx;
+}
+
+
+
